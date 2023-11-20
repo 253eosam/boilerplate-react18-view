@@ -13,13 +13,11 @@
   "plugins": [
     "@typescript-eslint",
     "better-styled-components",
-    "prettier",
     "import"
   ],
   "extends": [
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended",
     "plugin:import/recommended",
     "airbnb-typescript",
     "airbnb"
@@ -28,6 +26,11 @@
     "dist"
   ],
   "rules": {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "import/extensions": [
+      "off"
+    ],
     "no-trailing-spaces": [
       1,
       {
@@ -38,7 +41,6 @@
     "no-alert": "off",
     "no-shadow": "off",
     "no-spaced-func": "off",
-    "no-console": "off",
     "no-use-before-define": "off",
     "no-import-assign": "warn",
     "linebreak-style": 0,

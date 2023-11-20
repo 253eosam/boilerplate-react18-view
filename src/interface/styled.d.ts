@@ -1,5 +1,4 @@
 import 'styled-components';
-import { minMedia, maxMedia } from '../styles/theme';
 import {
   flexSet,
   boxSet,

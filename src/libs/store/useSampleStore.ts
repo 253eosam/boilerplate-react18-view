@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-export const useUserStore = create(set => ({
+export const useUserStore = create((set) => ({
   // State
   data: null,
   // Set State
